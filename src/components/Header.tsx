@@ -6,11 +6,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useRouter } from "@/i18n/routing";
+
 import { cn } from "@/lib/utils";
 import { useLocale, useMessages } from "next-intl";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "@/i18n/routing";
 import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
@@ -22,13 +23,13 @@ const Header = ({ className }: { className?: string }) => {
   const [selectLanguage, setSelectLanguage] = useState("en");
   const pathName = usePathname();
   const local = useLocale();
-  const [currentHash, setCurrentHash] = useState("/");
+  const [currentHash, setCurrentHash] = useState("#home");
   const router = useRouter();
 
   const handhleLanguageSwitch = (lan: string) => {
     setSelectLanguage(lan);
 
-    router.replace(pathName.slice(0, 1), { locale: lan as any });
+    router.replace(pathName, { locale: lan as any });
   };
 
   useEffect(() => {
@@ -136,7 +137,11 @@ const Header = ({ className }: { className?: string }) => {
           </Select>
 
           <Link passHref legacyBehavior href={"/en/order"}>
-            <Button size={"lg"} className="px-6 rounded-full">
+            <Button
+              variant={"destructive"}
+              size={"lg"}
+              className="px-6 rounded-full"
+            >
               {local === "en"
                 ? "Install the application"
                 : "Instaleaza aplicatia"}

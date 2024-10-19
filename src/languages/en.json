@@ -3,19 +3,20 @@
     "title": "Hello world!",
     "about": "Go to the about page"
   },
+
   "header": [
     {
-      "label": "Acasa",
-      "href": "/",
+      "label": "Home",
+      "href": "#home",
       "id": 1
     },
     {
-      "label": "Beneficii",
+      "label": "benefits",
       "href": "#benefits",
       "id": 2
     },
     {
-      "label": "Cum functioneaza",
+      "label": "how it work",
       "href": "#how_it_work",
       "id": 3
     },
@@ -24,5 +25,8 @@
       "href": "#contact",
       "id": 4
     }
-  ]
+  ],
+  "CustomerLandingpage": {
+    "HeroTitle": "PICK Your Rewards: Loyalty Made Simple"
+  }
 }

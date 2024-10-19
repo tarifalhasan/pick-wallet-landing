@@ -5,17 +5,17 @@
   },
   "header": [
     {
-      "label": "Home",
-      "href": "/",
+      "label": "Acasa",
+      "href": "#home",
       "id": 1
     },
     {
-      "label": "benefits",
+      "label": "Beneficii",
       "href": "#benefits",
       "id": 2
     },
     {
-      "label": "how it work",
+      "label": "Cum functioneaza",
       "href": "#how_it_work",
       "id": 3
     },
@@ -24,5 +24,8 @@
       "href": "#contact",
       "id": 4
     }
-  ]
+  ],
+  "CustomerLandingpage": {
+    "HeroTitle": "PICK Your Rewards: Loyalty Made Simple"
+  }
 }
