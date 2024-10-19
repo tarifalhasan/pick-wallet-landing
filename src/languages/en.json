@@ -27,6 +27,27 @@
     }
   ],
   "CustomerLandingpage": {
-    "HeroTitle": "PICK Your Rewards: Loyalty Made Simple"
+    "HeroTitle": "PICK Your Rewards: Loyalty Made Simple",
+    "Benefits": {
+      "title": "Beneficii",
+      "subTitle": "Caracteristici distinctive cresc valoarea fiecarui moment de interactiune cu aplicatia",
+      "items": [
+        {
+          "icon": "/icons/clock.svg",
+          "title": "Eficienta",
+          "subTitle": "PICK simplifica colectarea recompenselor, oferind utilizatorilor posibilitatea de a acumula stampile digitale rapid."
+        },
+        {
+          "icon": "/icons/connection.svg",
+          "title": "Conectivitate",
+          "subTitle": "Utilizatorii acceseaza o retea vasta de comercianti si oferte exclusive, imbogatind astfel experienta lor de cumparaturi."
+        },
+        {
+          "icon": "/icons/arrow-switch.svg",
+          "title": "Interactivitate",
+          "subTitle": "Colectarea recompenselor devine captivanta cu Echos Digital Stamp, care adauga interactivitate fidelizarii."
+        }
+      ]
+    }
   }
 }

@@ -22,6 +22,9 @@ const config: Config = {
         skin: {
           "light-black": "#615760",
           red: "#F15152",
+          black: "#3A2E39",
+          "light-pink": "#F4D8CD",
+          green: "#1E555C",
         },
         card: {
           DEFAULT: "hsl(var(--card))",
