@@ -1,0 +1,28 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "header": [
+    {
+      "label": "Acasa",
+      "href": "/",
+      "id": 1
+    },
+    {
+      "label": "Beneficii",
+      "href": "#benefits",
+      "id": 2
+    },
+    {
+      "label": "Cum functioneaza",
+      "href": "#how_it_work",
+      "id": 3
+    },
+    {
+      "label": "Contact",
+      "href": "#contact",
+      "id": 4
+    }
+  ]
+}

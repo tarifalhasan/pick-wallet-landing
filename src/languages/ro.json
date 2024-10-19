@@ -1,0 +1,28 @@
+{
+  "HomePage": {
+    "title": "Hello Probibhi!",
+    "about": "Go to the about page"
+  },
+  "header": [
+    {
+      "label": "Home",
+      "href": "/",
+      "id": 1
+    },
+    {
+      "label": "benefits",
+      "href": "#benefits",
+      "id": 2
+    },
+    {
+      "label": "how it work",
+      "href": "#how_it_work",
+      "id": 3
+    },
+    {
+      "label": "Contact",
+      "href": "#contact",
+      "id": 4
+    }
+  ]
+}
