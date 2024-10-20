@@ -16,6 +16,9 @@ const config: Config = {
           "2xl": "1400px",
         },
       },
+      backgroundImage: {
+        contact: "url('/images/contact-bg.png')",
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

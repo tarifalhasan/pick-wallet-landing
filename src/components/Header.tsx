@@ -9,9 +9,9 @@ import {
 
 import { cn } from "@/lib/utils";
 import { useLocale, useMessages } from "next-intl";
-import Link from "next/link";
+
 // import { usePathname } from "next/navigation";
-import { usePathname, useRouter } from "@/i18n/routing";
+import { Link, usePathname, useRouter } from "@/i18n/routing";
 import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
@@ -61,7 +61,7 @@ const Header = ({ className }: { className?: string }) => {
         )}
       >
         <div className="flex items-center lg:gap-x-20">
-          <a href={"/"}>
+          <Link href={"/"}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={140}
@@ -102,7 +102,7 @@ const Header = ({ className }: { className?: string }) => {
                 fill="#F15152"
               />
             </svg>
-          </a>
+          </Link>
         </div>
         <ul className="inline-flex items-center gap-8">
           {headerData?.map((data, index) => (

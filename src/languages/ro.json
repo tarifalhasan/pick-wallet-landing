@@ -82,6 +82,31 @@
           "subTitle": "Odata ce ai acumulat suficiente stampile, poti folosi aplicatia pentru a le schimba pe recompense. Acestea pot varia de la reduceri si oferte exclusive la produse gratuite sau acces la evenimente speciale."
         }
       ]
+    },
+    "Contact": {
+      "title": "Contact",
+      "subTitle": "Ne-ar placea sa auzim de la tine! Fie ca ai intrebari despre cum sa te inscrii, vrei sa afli mai multe despre cum functioneaza \"PICK\" sau ai nevoie de asistenta cu aplicatia, echipa noastra este aici pentru a te ajuta. Completeaza formularul sau contacteaza-ne direct prin una dintre metodele disponibile. Vom raspunde cat mai curand posibil pentru a te asigura ca experienta ta cu Pick este fara probleme.",
+      "form_btn": "Trimite",
+      "UserForm": {
+        "FullName": "Nume complet",
+        "Email": "Email",
+        "Message": "Mesaj"
+      },
+      "CleintForm": {
+        "FullName": "Nume complet",
+        "Phone": "Numar telefon",
+        "Email": "Email",
+        "Message": "Mesaj"
+      },
+      "Tab": {
+        "User": "Suport utilizatori",
+        "Client": "Clienti Business"
+      }
+    },
+    "NewsLater": {
+      "title": "Nu gasesti locatia ta preferata in aplicatie? Spune-ne cum se numeste si ne ocupam noi de restul!",
+      "form_input": "Nume locatie",
+      "form_btn": "Trimite"
     }
   }
 }
