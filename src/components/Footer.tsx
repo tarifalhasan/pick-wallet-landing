@@ -1,18 +1,16 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+  const t = useTranslations("footer");
   return (
     <footer className="bg-skin-black py-12">
       <div className="container flex flex-wrap  gap-4 justify-between items-start">
         <div className="lg:max-w-[50%] space-y-4">
           <h2 className="text-[2rem] font-bold text-white">Pick</h2>
           <p className="text-base text-white lg:text-lg font-normal">
-            Impreuna reinventam loialitatea la PICK! Atrageti mai multi clienti
-            si pastrati-i aproape cu recompense personalizate. La fiecare
-            vizita, colectarea de stampile deschide porti catre recompense si
-            experiente unice. Impreuna, construim o comunitate vibranta unde
-            fiecare interactiune conteaza si aduce beneficii tuturor.
+            {t("description")}
           </p>
           <p className="text-base text-white lg:text-lg font-bold">
             contact@pick.coupons
@@ -24,28 +22,32 @@ const Footer = () => {
             <ul className="flex  flex-col gap-y-3">
               <li>
                 <Link className="text-sm font-normal text-white" href={"/"}>
-                  Termeni si conditii
+                  Terms of Service
                 </Link>
               </li>
               <li>
                 <Link className="text-sm font-normal text-white" href={"/"}>
-                  Politica de confidentialitate
+                  Privacy Policy
                 </Link>
               </li>
               <li>
                 <Link className="text-sm font-normal text-white" href={"/"}>
-                  Politica de cookieuri
+                  Cookies Policy
                 </Link>
               </li>
             </ul>
           </div>
           <div className="space-y-4">
-            <h4 className="text-sm text-white/70">Contacteaza-ne</h4>
+            <h4 className="text-sm text-white/70">Contact Us</h4>
             <ul className="flex  flex-col gap-y-3">
               <li className="text-sm font-normal text-white">
                 Termeni si conditii
               </li>
-
+              <li className="text-sm font-normal text-white">
+                United Business Center <br />
+                Etaj 10, Biroul 2 <br />
+                Str Palat nr 1Iasi, Romania
+              </li>
               <li className="text-sm  font-normal text-white">
                 Made with ❤️ in Romania
               </li>
@@ -67,9 +69,9 @@ const Footer = () => {
                 <Image
                   src={"/icons/Instagram.svg"}
                   alt="facebook"
-                  className=" w-6 h-6"
-                  width={24}
-                  height={24}
+                  className=" w-7 h-7"
+                  width={50}
+                  height={50}
                 />
               </a>
             </li>

@@ -29,6 +29,7 @@ const config: Config = {
           "light-pink": "#F4D8CD",
           green: "#1E555C",
           gray: "#EBEAEB",
+          "peach-fuzz": "#FFBE98",
         },
         card: {
           DEFAULT: "hsl(var(--card))",

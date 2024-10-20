@@ -1,5 +1,11 @@
+import BusinessHero from "./_components/Hero";
+
 const Business = () => {
-  return <div>Business</div>;
+  return (
+    <div>
+      <BusinessHero />
+    </div>
+  );
 };
 
 export default Business;

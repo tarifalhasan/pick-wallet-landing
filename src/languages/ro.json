@@ -25,6 +25,9 @@
       "id": 4
     }
   ],
+  "footer": {
+    "description": "Impreuna reinventam loialitatea la PICK! Atrageti mai multi clienti si pastrati-i aproape cu recompense personalizate. La fiecare vizita, colectarea de stampile deschide porti catre recompense si experiente unice. Impreuna, construim o comunitate vibranta unde fiecare interactiune conteaza si aduce beneficii tuturor."
+  },
   "CustomerLandingpage": {
     "HeroTitle": "PICK Your Rewards: Loyalty Made Simple",
     "Benefits": {
@@ -83,6 +86,7 @@
         }
       ]
     },
+
     "Contact": {
       "title": "Contact",
       "subTitle": "Ne-ar placea sa auzim de la tine! Fie ca ai intrebari despre cum sa te inscrii, vrei sa afli mai multe despre cum functioneaza \"PICK\" sau ai nevoie de asistenta cu aplicatia, echipa noastra este aici pentru a te ajuta. Completeaza formularul sau contacteaza-ne direct prin una dintre metodele disponibile. Vom raspunde cat mai curand posibil pentru a te asigura ca experienta ta cu Pick este fara probleme.",
@@ -107,6 +111,14 @@
       "title": "Nu gasesti locatia ta preferata in aplicatie? Spune-ne cum se numeste si ne ocupam noi de restul!",
       "form_input": "Nume locatie",
       "form_btn": "Trimite"
+    }
+  },
+  "BusinessLandingPage": {
+    "Hero": {
+      "title": "Catchy title here on three lines",
+      "client": {
+        "title": "Clienti"
+      }
     }
   }
 }
