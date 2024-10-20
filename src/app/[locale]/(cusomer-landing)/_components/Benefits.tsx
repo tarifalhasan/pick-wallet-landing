@@ -13,8 +13,6 @@ const Benefits = () => {
   const items = message.CustomerLandingpage.Benefits
     .items as BenefitsMessages[];
 
-  console.log(items);
-
   return (
     <div className="container py-16 xl:py-20 flex flex-col gap-y-12">
       <div className="flex flex-col gap-y-5 max-w-[655px] mx-auto">
@@ -42,8 +40,7 @@ const Benefits = () => {
               {item.title}
             </h3>
             <p className="text-center text-lg font-normal text-skin-black">
-              PICK simplifica colectarea recompenselor, oferind utilizatorilor
-              posibilitatea de a acumula stampile digitale rapid.
+              {item.subTitle}
             </p>
           </div>
         ))}

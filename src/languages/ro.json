@@ -26,6 +26,62 @@
     }
   ],
   "CustomerLandingpage": {
-    "HeroTitle": "PICK Your Rewards: Loyalty Made Simple"
+    "HeroTitle": "PICK Your Rewards: Loyalty Made Simple",
+    "Benefits": {
+      "title": "Beneficii",
+      "subTitle": "Caracteristici distinctive cresc valoarea fiecarui moment de interactiune cu aplicatia",
+      "items": [
+        {
+          "icon": "/icons/clock.svg",
+          "title": "Eficienta",
+          "subTitle": "PICK simplifica colectarea recompenselor, oferind utilizatorilor posibilitatea de a acumula stampile digitale rapid."
+        },
+        {
+          "icon": "/icons/connection.svg",
+          "title": "Conectivitate",
+          "subTitle": "Utilizatorii acceseaza o retea vasta de comercianti si oferte exclusive, imbogatind astfel experienta lor de cumparaturi."
+        },
+        {
+          "icon": "/icons/arrow-switch.svg",
+          "title": "Interactivitate",
+          "subTitle": "Colectarea recompenselor devine captivanta cu Echos Digital Stamp, care adauga interactivitate fidelizarii."
+        }
+      ]
+    },
+    "Stamp": {
+      "title": "Stampila",
+      "subTitle": "Stampila Echoss Digital Stamp este elementul central al aplicatiei noastre, asigurand o colectare securizata a recompenselor. Tehnologia inovatoare recunoaste si valideaza fiecare achizitie, adaugand stampile digitale in contul utilizatorului fara eforturi suplimentare. Acest mecanism eficient transforma fiecare cumparatura intr-o oportunitate de a acumula beneficii, simplificand procesul de fidelizare.",
+      "btnText": "Contacteaza-ne"
+    },
+    "HowItWork": {
+      "title": "Cum functioneaza",
+      "subTitle": "Urmeaza acesti pasi simpli pentru o experienta completa",
+      "items": [
+        {
+          "id": 12,
+          "icon": "/icons/download.svg",
+          "title": "Descarca si inregistreaza-te",
+          "subTitle": "Descarca aplicatia \"Pick\" din App Store sau Google Play. Creează-ti un cont folosind adresa de e-mail sau conecteaza-te rapid cu contul tau de Facebook sau Google pentru a accesa platforma."
+        },
+        {
+          "id": 13,
+          "icon": "/icons/store.svg",
+          "title": "Viziteaza locatia si cumpara",
+          "subTitle": "Foloseste aplicatia pentru a gasi magazinele partenere apropiate sau orice altă locatie care este in comunitatea PICK. La fiecare achizitie in aceste locuri, vei fi rasplatit cu stampile digitale."
+        },
+        {
+          "id": 14,
+          "icon": "/icons/dashboard-one-is-filled.svg",
+          "title": "Colecteaza stampile digitale",
+          "subTitle": "La finalizarea achizitiei, stampilele digitale sunt adaugate in contul tau PICK. Nu este nevoie sa scanezi niciun cod QR - totul se face prin tehnologia Echoss Digital Stamp."
+        },
+        {
+          "id": 15,
+          "icon": "/icons/crown.svg",
+          "title": "Beneficiaza de recompense",
+          "subTitle": "Odata ce ai acumulat suficiente stampile, poti folosi aplicatia pentru a le schimba pe recompense. Acestea pot varia de la reduceri si oferte exclusive la produse gratuite sau acces la evenimente speciale."
+        }
+      ]
+    }
   }
 }
