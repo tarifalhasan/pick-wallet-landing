@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import { Space_Grotesk as FontSans } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 
+import Footer from "@/components/Footer";
 import { cn } from "@/lib/utils";
 import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
@@ -62,6 +63,7 @@ export default async function LocaleLayout({
           />
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
