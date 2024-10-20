@@ -16,7 +16,7 @@ const HowItWork = () => {
   const items = message.CustomerLandingpage.HowItWork.items as ItemProps[];
 
   return (
-    <div id="how_it_work" className="container pb-16 xl:pb-20">
+    <div id="how_it_work" className="md:container pb-16 xl:pb-20">
       <div className="py-12 px-4 bg-skin-black lg:rounded-[16px] sm:px-6 xl:px-12 space-y-12">
         <div className="space-y-5">
           <h2 className="text-2xl xl:text-3xl text-center font-bold text-white">

@@ -2,6 +2,7 @@ import { useMessages } from "next-intl";
 import Benefits from "./_components/Benefits";
 import CustomerHero from "./_components/Hero";
 import HowItWork from "./_components/HowItWork";
+import Newslater from "./_components/Newslater";
 import Stamp from "./_components/Stamp";
 
 export default function HomePage() {
@@ -12,6 +13,7 @@ export default function HomePage() {
       <Benefits />
       <Stamp />
       <HowItWork />
+      <Newslater />
     </div>
   );
 }
