@@ -34,7 +34,7 @@ const Benifit = () => {
     <section className="sm:container py-10 lg:py-16">
       <div className="bg-skin-black   sm:rounded-2xl py-12 lg:py-20">
         <div className="space-y-4 px-4">
-          <h2 className="text-2xl text-white relative text-left lg:text-center font-bold ">
+          <h2 className="text-2xl text-white relative text-center font-bold ">
             Beneficii
           </h2>
           <p className="text-xl xl:text-2xl text-center text-skin-gray font-medium">

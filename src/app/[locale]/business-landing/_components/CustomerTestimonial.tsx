@@ -62,7 +62,7 @@ const CustomerTestimonial: React.FC = () => {
       </div>
       <Carousel
         opts={{
-          align: "end",
+          align: "center",
         }}
         className="pt-12 xl:pt-16"
       >
@@ -70,7 +70,7 @@ const CustomerTestimonial: React.FC = () => {
           {TestimonialData.map((item) => (
             <CarouselItem
               key={item.id}
-              className="lg:basis-1/2  basis-full  xl:basis-1/4"
+              className="lg:basis-1/3  md:basis-1/2  xl:basis-1/4"
             >
               <Card className="bg-skin-light-pink border-0">
                 <CardContent className="flex min-h-[380px] flex-col items-center justify-between gap-y-8 px-6 py-8">
