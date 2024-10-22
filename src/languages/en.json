@@ -120,6 +120,48 @@
       "client": {
         "title": "Clients"
       }
-    }
+    },
+
+    "Plans": [
+      {
+        "id": "basic",
+        "name": "BASIC",
+        "description": "Ideal for those seeking advanced features, suitable for both personal and business needs.",
+        "monthlyPrice": "$50",
+        "yearlyPrice": "$480",
+        "features": [
+          "Access to All Features",
+          "Priority Support",
+          "Unlimited Projects"
+        ]
+      },
+      {
+        "id": "standard",
+        "name": "STANDARD",
+        "description": "Perfect for small teams, offering premium features and priority support.",
+        "monthlyPrice": "$80",
+        "yearlyPrice": "$768",
+        "features": [
+          "Access to All Features",
+          "Priority Support",
+          "Unlimited Projects",
+          "Team Management"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "PREMIUM",
+        "description": "For larger teams with high demand, including enterprise-level support.",
+        "monthlyPrice": "$150",
+        "yearlyPrice": "$1440",
+        "features": [
+          "Access to All Features",
+          "Priority Support",
+          "Unlimited Projects",
+          "Team Management",
+          "Custom Solutions"
+        ]
+      }
+    ]
   }
 }

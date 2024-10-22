@@ -119,6 +119,39 @@
       "client": {
         "title": "Clienti"
       }
-    }
+    },
+    "Plans": [
+      {
+        "id": "basic",
+        "name": "BASIC",
+        "description": "Ideal pentru cei care caută funcții avansate, potrivit atât pentru nevoi personale cât și de afaceri.",
+        "monthlyPrice": "$50",
+        "yearlyPrice": "$480",
+        "features": [
+          "Acces la toate funcțiile",
+          "Suport Prioritar",
+          "Proiecte Nelimitate"
+        ]
+      },
+      {
+        "id": "standard",
+        "name": "STANDARD",
+        "description": "Perfect pentru echipe mici, oferind funcții premium și suport prioritar.",
+        "monthlyPrice": "$80",
+        "yearlyPrice": "$768",
+        "features": [
+          "Acces la toate funcțiile",
+          "Suport Prioritar",
+          "Proiecte Nelimitate",
+          "Managementul Echipei"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "PREMIUM",
+        "description": "Pentru echipe mari cu cereri ridicate, inclusiv suport la nivel enterprise.",
+        "monthlyPrice": "$150"
+      }
+    ]
   }
 }

@@ -1,8 +1,6 @@
-"use client";
-import { Card, CardContent } from "@/components/ui/card";
-import { EmblaOptionsType } from "embla-carousel";
-import useEmblaCarousel from "embla-carousel-react";
+"use client"; // Add this at the top
 
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -10,68 +8,69 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import React from "react";
 
-import ClassNames from "embla-carousel-class-names";
-const TestimonialData = [
+// Testimonial data type
+type Testimonial = {
+  say: string;
+  customerName: string;
+  id: number;
+};
+
+// Sample testimonials
+const TestimonialData: Testimonial[] = [
   {
     say: "Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod tempor incididunt dolore magna aliqua.",
     customerName: "Rahul, Mumbai",
-    id: 70,
+    id: 1,
+  },
+  {
+    say: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    customerName: "Sneha, Pune",
+    id: 2,
+  },
+  {
+    say: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    customerName: "Raj, Delhi",
+    id: 3,
   },
   {
     say: "Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod tempor incididunt dolore magna aliqua.",
     customerName: "Rahul, Mumbai",
-    id: 71,
+    id: 4,
   },
   {
-    say: "Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod tempor incididunt dolore magna aliqua.",
-    customerName: "Rahul, Mumbai",
-    id: 72,
+    say: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    customerName: "Sneha, Pune",
+    id: 5,
   },
   {
-    say: "Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod tempor incididunt dolore magna aliqua.",
-    customerName: "Rahul, Mumbai",
-    id: 73,
+    say: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    customerName: "Raj, Delhi",
+    id: 6,
   },
-  {
-    say: "Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod tempor incididunt dolore magna aliqua.",
-    customerName: "Rahul, Mumbai",
-    id: 74,
-  },
-  {
-    say: "Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod tempor incididunt dolore magna aliqua.",
-    customerName: "Rahul, Mumbai",
-    id: 75,
-  },
+  // Add more testimonials as needed...
 ];
 
-const OPTIONS: EmblaOptionsType = {};
-
-const CustomerTestimonial = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [ClassNames()]);
-
+const CustomerTestimonial: React.FC = () => {
   return (
-    <section className="py-16 xl:py-20">
-      <div className="container">
+    <section className="py-16 container xl:py-20">
+      <div className="">
         <h2 className="text-2xl after:left-1/2 after:-translate-x-1/2 relative after:absolute after:-bottom-4 after:h-[3px] after:bg-skin-red after:w-[140px] text-left lg:text-center font-bold text-skin-black">
           Ce spun clientii nostri?
         </h2>
       </div>
       <Carousel
-        ref={emblaRef}
         opts={{
-          align: "center",
-          active: true,
-
-          duration: 20,
+          align: "start",
         }}
         className="pt-12 xl:pt-16"
       >
         <CarouselContent>
-          {TestimonialData.map((item, index) => (
+          {TestimonialData.map((item) => (
             <CarouselItem
               key={item.id}
-              className="lg:basis-1/2 embla__class-names lg:min-w-[360px] xl:min-w-[420px] xl:basis-1/5"
+              className="lg:basis-1/2  basis-full  xl:basis-1/4"
             >
               <Card className="bg-skin-light-pink border-0">
                 <CardContent className="flex min-h-[380px] flex-col items-center justify-between gap-y-8 px-6 py-8">

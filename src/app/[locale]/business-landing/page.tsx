@@ -2,6 +2,7 @@ import Benifit from "./_components/Benifit";
 import CustomerTestimonial from "./_components/CustomerTestimonial";
 import BusinessHero from "./_components/Hero";
 import PopularLocations from "./_components/PopularLocations";
+import Pricing from "./_components/Pricing";
 
 const Business = () => {
   return (
@@ -10,6 +11,7 @@ const Business = () => {
       <PopularLocations />
       <Benifit />
       <CustomerTestimonial />
+      <Pricing />
     </div>
   );
 };
