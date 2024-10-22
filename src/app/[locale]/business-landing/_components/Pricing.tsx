@@ -20,13 +20,13 @@ const Pricing = () => {
   const [planType, setPlanType] = useState<"monthly" | "yearly">("monthly");
 
   return (
-    <section className="container py-12 lg:pt-16 flex flex-col gap-y-12 xl:gap-y-16 xl:py-20">
+    <section className="container pb-12 lg:pb-16 flex flex-col gap-y-12 xl:gap-y-16 xl:pb-20">
       <div>
-        <h2 className="text-2xl after:left-1/2 after:-translate-x-1/2 relative after:absolute after:-bottom-4 after:h-[3px] after:bg-skin-red after:w-[140px] text-left lg:text-center font-bold text-skin-black">
+        <h2 className="text-2xl after:left-1/2 after:-translate-x-1/2 relative after:absolute after:-bottom-4 after:h-[3px] after:bg-skin-red after:w-[140px] text-center font-bold text-skin-black">
           {t("PlanSectionTitle")}
         </h2>
       </div>
-      <div className="flex pt-6 flex-col gap-y-10">
+      <div className="flex lg:pt-6 flex-col gap-y-10">
         <div className="flex items-center justify-center">
           <div className="inline-flex items-center gap-8 bg-skin-light-pink rounded-full">
             <button
@@ -52,7 +52,7 @@ const Pricing = () => {
             </button>
           </div>
         </div>
-        <div className="grid pt-20 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid pt-4 lg:pt-20 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {plans?.map((plan) => (
             <div
               key={plan.id}

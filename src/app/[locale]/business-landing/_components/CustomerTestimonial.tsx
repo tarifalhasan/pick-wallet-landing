@@ -54,15 +54,15 @@ const TestimonialData: Testimonial[] = [
 
 const CustomerTestimonial: React.FC = () => {
   return (
-    <section className="py-16 container xl:py-20">
+    <section className="pb-16 container xl:pb-20">
       <div className="">
-        <h2 className="text-2xl after:left-1/2 after:-translate-x-1/2 relative after:absolute after:-bottom-4 after:h-[3px] after:bg-skin-red after:w-[140px] text-left lg:text-center font-bold text-skin-black">
+        <h2 className="text-2xl after:left-1/2 after:-translate-x-1/2 relative after:absolute after:-bottom-4 after:h-[3px] after:bg-skin-red after:w-[140px] text-center font-bold text-skin-black">
           Ce spun clientii nostri?
         </h2>
       </div>
       <Carousel
         opts={{
-          align: "start",
+          align: "end",
         }}
         className="pt-12 xl:pt-16"
       >

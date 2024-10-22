@@ -155,6 +155,29 @@
     ],
     "PlanSectionTitle": "Alege o subscriptie care ti se potriveste",
     "monthlyTab": "Lunar",
-    "yearlyTab": "Anual"
+    "yearlyTab": "Anual",
+    "ApplyForAFreeSubscriptionSubscribeHeading": "Aplica pentru o subscriptie gratis",
+    "ApplyForAFreeSubscriptionSubscribeSlogan": "Poti folosi Pick fara costuri daca devii ambasador",
+    "ApplyForAFreeSubscriptionSubscribeBtnText": "Contacteaza-ne",
+    "ContactFormTitle": "Contact",
+    "ContactFormDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed fermentum erat. Vivamus cursus aliquam pellentesque. Duis id enim eu nunc eleifend vestibulum et tincidunt massa. Vestibulum id est ac enim imperdiet luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc in ornare dolor, et pharetra felis.",
+    "ContactFormLocation": "Nu avem locatia ta preferata pe platforma? Zi cum se numeste si de restu ne ocupam noi!",
+    "ContactFormBtnText": "Submit a location",
+    "form_btn": "Trimite",
+    "BusinessForm": {
+      "FullName": "Nume complet",
+      "Email": "Email",
+      "Message": "Mesaj"
+    },
+    "ConsumerForm": {
+      "FullName": "Nume complet",
+      "Phone": "Numar telefon",
+      "Email": "Email",
+      "Message": "Mesaj"
+    },
+    "Tab": {
+      "Business": "Business",
+      "Consumer": "Consumator"
+    }
   }
 }

@@ -165,6 +165,29 @@
     ],
     "PlanSectionTitle": "Apply for a free subscription",
     "monthlyTab": "Monthly",
-    "yearlyTab": "Annual"
+    "yearlyTab": "Annual",
+    "ApplyForAFreeSubscriptionSubscribeHeading": "Apply for a free subscription",
+    "ApplyForAFreeSubscriptionSubscribeSlogan": "You can use Pick at no cost if you become an ambassador",
+    "ApplyForAFreeSubscriptionSubscribeBtnText": "Contact Us",
+    "ContactFormTitle": "Contact",
+    "ContactFormDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed fermentum erat. Vivamus cursus aliquam pellentesque. Duis id enim eu nunc eleifend vestibulum et tincidunt massa. Vestibulum id est ac enim imperdiet luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc in ornare dolor, et pharetra felis.",
+    "ContactFormLocation": "Nu avem locatia ta preferata pe platforma? Zi cum se numeste si de restu ne ocupam noi!",
+    "ContactFormBtnText": "Submit a location",
+    "form_btn": "Trimite",
+    "BusinessForm": {
+      "FullName": "Nume complet",
+      "Email": "Email",
+      "Message": "Mesaj"
+    },
+    "ConsumerForm": {
+      "FullName": "Nume complet",
+      "Phone": "Numar telefon",
+      "Email": "Email",
+      "Message": "Mesaj"
+    },
+    "Tab": {
+      "Business": "Business",
+      "Consumer": "Consumator"
+    }
   }
 }

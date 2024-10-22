@@ -1,4 +1,6 @@
+import ApplyForAFreeSubscription from "./_components/ApplyForAFreeSubscription";
 import Benifit from "./_components/Benifit";
+import Contact from "./_components/Contact";
 import CustomerTestimonial from "./_components/CustomerTestimonial";
 import BusinessHero from "./_components/Hero";
 import PopularLocations from "./_components/PopularLocations";
@@ -12,6 +14,8 @@ const Business = () => {
       <Benifit />
       <CustomerTestimonial />
       <Pricing />
+      <ApplyForAFreeSubscription />
+      <Contact />
     </div>
   );
 };
