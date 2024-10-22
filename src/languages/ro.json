@@ -152,6 +152,9 @@
         "description": "Pentru echipe mari cu cereri ridicate, inclusiv suport la nivel enterprise.",
         "monthlyPrice": "$150"
       }
-    ]
+    ],
+    "PlanSectionTitle": "Alege o subscriptie care ti se potriveste",
+    "monthlyTab": "Lunar",
+    "yearlyTab": "Anual"
   }
 }

@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { useMessages } from "next-intl";
+import { useMessages, useTranslations } from "next-intl";
 import { useState } from "react";
 interface PricingPlanType {
   id: string;
@@ -16,14 +16,14 @@ interface PricingPlanType {
 const Pricing = () => {
   const message = useMessages() as any;
   const plans = message.BusinessLandingPage.Plans as PricingPlanType[];
-
+  const t = useTranslations("BusinessLandingPage");
   const [planType, setPlanType] = useState<"monthly" | "yearly">("monthly");
 
   return (
     <section className="container py-12 lg:pt-16 flex flex-col gap-y-12 xl:gap-y-16 xl:py-20">
       <div>
         <h2 className="text-2xl after:left-1/2 after:-translate-x-1/2 relative after:absolute after:-bottom-4 after:h-[3px] after:bg-skin-red after:w-[140px] text-left lg:text-center font-bold text-skin-black">
-          Alege o subscriptie care ti se potriveste
+          {t("PlanSectionTitle")}
         </h2>
       </div>
       <div className="flex pt-6 flex-col gap-y-10">
@@ -36,7 +36,7 @@ const Pricing = () => {
                 planType === "monthly" && "bg-skin-red text-white"
               )}
             >
-              <span>Lunar</span>
+              <span>{t("monthlyTab")}</span>
             </button>
             <button
               onClick={() => setPlanType("yearly")}
@@ -45,7 +45,7 @@ const Pricing = () => {
                 planType === "yearly" && "bg-skin-red text-white"
               )}
             >
-              <span>Anual</span>
+              <span>{t("yearlyTab")}</span>
               <span className="rounded-full px-2 py-1 bg-white text-sm font-normal text-skin-red">
                 20% Reducere
               </span>
